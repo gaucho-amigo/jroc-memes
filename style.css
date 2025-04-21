@@ -1,0 +1,25 @@
+/*1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+  font-family: 'Libre Baskerville', serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+div {
+    width: 50%;
+    margin-left: 25%;
+}
+img {
+    width: 100%;
+    height: auto;
+    border: #f0f0f0 5px solid;
+}
+
+h1 {
+  text-transform: capitalize;
+}
